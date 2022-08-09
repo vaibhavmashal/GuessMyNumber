@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 60.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid white;
+}
+main {
+  height: 65vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.number1 {
+  background-color: white;
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%, 50%);
+}
+.between {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -300%);
+}
+.again {
+  background-color: orange;
+  color: darkmagenta;
+  font-size: larges;
+  border: aqua;
+  width: 15rem;
+  padding: 5rem, 2em, 55em;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+
+  display: inline-block;
+  cursor: pointer;
+  font: 14px/100% arial, Helvetica, sans-serif;
+  border-radius: 5em;
+  text-shadow: 0px, 1px, 1px rgba(0, 0, 0, 0.3);
+  height: 40px;
+}
+.message {
+  position: absolute;
+  transform: translate(-40%, -210%);
+  font-size: 6rem;
+  color: #333;
+  font-style: inherit;
+}
+.lable-score {
+  text-align: right;
+  position: absolute;
+  transform: translate(150%, 45%);
+  font-size: 6rem;
+  color: #333;
+}
+.lable-Highscore {
+  text-align: right;
+  position: absolute;
+  transform: translate(90%, 130%);
+  font-size: 6rem;
+  color: #333;
+}
+.guess {
+  width: 30%;
+  padding: 6px, 6px;
+  margin: 8px;
+  box-sizing: border-box;
+  height: 80px;
+  font-size: 30px;
+  transform: translate(280%, 20%);
+}
+.check {
+  background-color: orange;
+  color: darkmagenta;
+  font-size: larges;
+  border: aqua;
+  width: 15rem;
+  padding: 2rem, 2em, 2em;
+  font-style: italic;
+  text-align: center;
+  position: initial;
+
+  display: inline-block;
+  cursor: pointer;
+  font: 14px/100% arial, Helvetica, sans-serif;
+  border-radius: 5em;
+  text-shadow: 0px, 1px, 1px rgba(0, 0, 0, 0.3);
+  margin: 4px, 2px;
+  border: #333;
+  height: 40px;
+  transform: translate(200%, 300%);
+}
+.headers {
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 90%;
+  transform: translate(-50%, -300%);
+}
